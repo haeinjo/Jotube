@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="{% static 'css/core/home.css' %}">
+    <!-- JS -->
+    <script src="{% static 'js/core/home.js' %}" type="text/javascript" defer></script>
+    <title>JoTube</title>
+</head>
+
+<body>
+    <header class="jtHeader">
+        <div class="jtHeader__start">
+            <div class="start__hg"><i class="fas fa-bars"></i></div>
+            <div class="start__logo">
+                <i class="fab fa-youtube"></i>
+                <div class="start__logoName">JoTube</div>
+                <div class="start__logoSub">KR</div>
+            </div>
+        </div>
+        <div class="jtHeader__center">
+            <div class="center__search">
+                <input class="search__input" type="text" , placeholder="검색">
+                <i class="fas fa-keyboard"></i>
+            </div>
+            <div class="center__searchBtn"><i class="fas fa-search"></i></div>
+        </div>
+        <div class="jtHeader__right">
+            <i class="fas fa-video right__upload"></i>
+            <i class="fas fa-table right__app"></i>
+            <i class="fas fa-bell right__noti"></i>
+            <div class="right__profile"></div>
+        </div>
+        <!-- description, display: none -->
+        <div class="jtHeader__elementDes jtHeader__uploadDes hidden_element"><span>만들기</span></div>
+        <div class="jtHeader__elementDes jtHeader__appDes hidden_element"><span>JoTube 앱</span></div>
+        <div class="jtHeader__elementDes jtHeader__notiDes hidden_element"><span>알림</span></div>
+    </header>
+    <nav></nav>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.hidden_element {
+    opacity: 0;
+    cursor: default;
+}
+
+.jtHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    height: 56px;
+}
+
+.jtHeader__start {
+    display: flex;
+    height: 40px;
+    width: 150px;
+}
+
+.start__hg {
+    padding: 8px;
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.start__hg > i {
+    font-size: 20px;
+}
+.start__logo {
+    display: flex;
+    padding: 3px;
+}
+
+.start__logo > i {
+    font-size: 24px;
+    color: red;
+    margin-top: 3px;
+    margin-right: 2px;
+}
+
+.start__logoName {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.start__logoSub {
+    margin-top: 2px;
+    font-size: 3px;
+    font-weight: 100;
+}
+
+.jtHeader__center {
+    display: flex;
+    width: 32%;
+    height: 30px;
+}
+
+.center__search {
+    width: 90%;
+    border: 1px solid gray;
+    border-radius: 2px;
+    height: 24px;
+    padding: 2px 6px;
+    display: flex;
+    align-items: center;
+}
+
+.center__search > i {
+    font-size: 17px;
+}
+
+.search__input {
+    width: 94%;
+    border: none;
+}
+
+.search__input:focus {
+    outline: none;
+}
+
+.center__searchBtn {
+    border: 1px solid gray;
+    border-left: none;
+    padding: 1px 6px;
+    padding-top: 2px;
+    width: 51px;
+    text-align: center;
+    border-radius: 0 2px 2px 0;
+}
+
+.center__searchBtn > i {
+    font-size: 14px;
+}
+
+.jtHeader__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 208px;
+}
+
+.jtHeader__right > i {
+    font-size: 20px;
+    color: gray;
+    cursor: pointer;
+}
+
+.right__profile {
+    width: 32px;
+    height: 32px;
+    background-color: brown;
+    border-radius: 50%;
+    margin: 0 6px;
+    cursor: pointer;
+}
+
+.jtHeader__elementDes {
+    width: 50px;
+    height: 33px;
+    background-color: rgba(76, 76, 76, 0.6);
+    color: white;
+    position: absolute;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.jtHeader__uploadDes {
+    top: 62px;
+    right: 186px;
+}
+
+.jtHeader__appDes {
+    top: 62px;
+    right: 120px;
+    width: 67px;
+}
+
+.jtHeader__notiDes {
+    top: 62px;
+    right: 78px;
+}
